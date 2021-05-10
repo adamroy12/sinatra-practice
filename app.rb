@@ -12,3 +12,9 @@ end
 get '/hmm' do
   "Hmm?"
 end
+
+get '/cat' do
+  "<div>
+    <img src='https://i.imgur.com/jFaSxym.png'>
+  </div>"
+end
