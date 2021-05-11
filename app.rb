@@ -14,5 +14,6 @@ get '/hmm' do
 end
 
 get '/cat' do
-  erb(:index)
+  @name = ["Amigo", "Misty", "Almond", "Reginald"].sample
+  erb :index
 end
